@@ -111,7 +111,7 @@ Key Excel work:
 * Prepared operating metrics, income statement, balance sheet, and funding metrics
 * Built forecast and DCF scenario tables
 
-![Excel Financial Model](assets/screenshots/00_excel_financial_model.png)
+![Excel Financial Model](assets/screenshots/excel_01_financial_metrics.png)
 
 ## Power BI Dashboard Pages
 
