@@ -10,9 +10,7 @@ The project combines company-level financial data from **Affirm FY2022–FY2024 
 
 ## 🎥 Dashboard Demo
 
-Watch the short Power BI walkthrough showing provider drill-through.
-![Watch Dashboard Demo](<img width="900" height="510" alt="demo" src="https://github.com/user-attachments/assets/798d86b5-df14-4146-baf5-1ebe023e9be0" />)
-
+![Dashboard Demo](https://github.com/user-attachments/assets/1e168211-fc89-49f4-bc56-d74765fedfb9)
 
 ---
 
