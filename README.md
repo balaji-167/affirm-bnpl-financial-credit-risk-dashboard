@@ -282,9 +282,9 @@ Finance and Analytics:
 * Forecast and DCF outputs are analytical model assumptions created for portfolio demonstration.
 * This project is for learning and portfolio purposes and is not investment advice.
 
-## 👨‍💻 About the Author
-**Balaji Reddy**
-
 ## Final Summary
 
 This project demonstrates how Excel and Power BI can be used together to build a finance analytics solution covering financial performance, credit risk, provider exposure, customer repayment behavior, forecasting, and valuation scenario analysis.
+
+## 👨‍💻 About the Author
+**Balaji Reddy**
