@@ -2,9 +2,9 @@
 
 ## Assumptions
 
-- Affirm financial metrics are based on FY2022–FY2024 reported financial data.
-- BNPL transaction data is used for customer-level repayment and credit risk analysis.
-- Forecast and scenario tables were created for analytical and portfolio demonstration purposes.
+- The financial metrics are based on Affirm FY2022–FY2024 reported filings
+- The BNPL transaction dataset is used for customer-level repayment and credit risk analysis
+- Forecast and DCF outputs are analytical model assumptions created for portfolio demonstration.
 - DCF enterprise value outputs are based on forecast assumptions and scenario sensitivity.
 - Purchase amount values are analyzed as transaction-level BNPL purchase exposure.
 
