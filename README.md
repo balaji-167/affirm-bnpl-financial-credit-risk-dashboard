@@ -57,6 +57,7 @@ affirm-bnpl-financial-credit-risk-dashboard/
 │   │   ├── affirm_2023_10k.pdf
 │   │   ├── affirm_2024_10k.pdf
 │   │   └── bnpl_dataset_v2.csv
+│   │
 │   └── processed/
 │       └── bnpl_transactions_clean.csv
 │
@@ -67,16 +68,17 @@ affirm-bnpl-financial-credit-risk-dashboard/
 │   └── affirm_bnpl_financial_credit_risk_dashboard.pbix
 │
 ├── assets/
-│   ├── demo/
-│   │   └── affirm_bnpl_dashboard_demo.mp4
 │   └── screenshots/
-│       ├── 00_excel_financial_model.png
 │       ├── 01_executive_summary.png
 │       ├── 02_financial_performance.png
 │       ├── 03_credit_risk_analysis.png
 │       ├── 04_provider_category_risk.png
 │       ├── 05_forecast_scenario.png
-│       └── 06_provider_detail_drillthrough.png
+│       ├── 06_provider_detail_drillthrough.png
+│       ├── excel_01_financial_metrics.png
+│       ├── excel_02_forecast_model.png
+│       ├── excel_03_dcf_scenario_analysis.png
+│       └── excel_04_bnpl_processed_preview.png
 │
 ├── docs/
 │   ├── dax_measures.md
@@ -119,7 +121,8 @@ Key Excel work:
 
 This page summarizes GMV, revenue, take rate, credit loss rate, free cash flow, profitability margins, and leverage metrics.
 
-Key insight: Affirm’s GMV grew from $15.5B in FY2022 to $26.6B in FY2024, while revenue increased to $2.3B. Credit Loss Rate improved to 1.0%, but Free Cash Flow remained negative.
+#### Key insight:
+Affirm’s GMV grew from $15.5B in FY2022 to $26.6B in FY2024, while revenue increased to $2.3B. Credit Loss Rate improved to 1.0%, but Free Cash Flow remained negative.
 
 ![Executive Summary](assets/screenshots/01_executive_summary.png)
 
@@ -127,7 +130,8 @@ Key insight: Affirm’s GMV grew from $15.5B in FY2022 to $26.6B in FY2024, whil
 
 This page analyzes revenue growth, operating expenses, operating loss, and free cash flow trends.
 
-Key insight: Revenue increased from $1,349.3M in FY2022 to $2,323.0M in FY2024. Operating loss improved from -$1,200.9M in FY2023 to -$615.8M in FY2024.
+#### Key insight:
+Revenue increased from $1,349.3M in FY2022 to $2,323.0M in FY2024. Operating loss improved from -$1,200.9M in FY2023 to -$615.8M in FY2024.
 
 ![Financial Performance](assets/screenshots/02_financial_performance.png)
 
@@ -135,7 +139,8 @@ Key insight: Revenue increased from $1,349.3M in FY2022 to $2,323.0M in FY2024. 
 
 This page analyzes repayment status, default rate by credit score band, and provider-level default risk.
 
-Key insight: Poor credit score customers had the highest default rate at 14.3%, while other credit score bands stayed around 2.0%–2.4%.
+#### Key insight:
+Poor credit score customers had the highest default rate at 14.3%, while other credit score bands stayed around 2.0%–2.4%.
 
 ![Credit Risk Analysis](assets/screenshots/03_credit_risk_analysis.png)
 
@@ -143,7 +148,8 @@ Key insight: Poor credit score customers had the highest default rate at 14.3%, 
 
 This page compares BNPL provider exposure, purchase category risk, and provider-category risk combinations.
 
-Key insight: Afterpay had the highest provider-level default rate at around 10.0%. Fashion was the highest-risk category at 8.79%. The heatmap showed risk pockets such as Afterpay + Fashion at 10.83%.
+#### Key insight:
+Afterpay had the highest provider-level default rate at around 10.0%. Fashion was the highest-risk category at 8.79%. The heatmap showed risk pockets such as Afterpay + Fashion at 10.83%.
 
 ![Provider and Category Risk](assets/screenshots/04_provider_category_risk.png)
 
@@ -151,7 +157,8 @@ Key insight: Afterpay had the highest provider-level default rate at around 10.0
 
 This page shows revenue forecast, free cash flow recovery, FCF margin, and DCF enterprise value under Bear, Base, and Bull scenarios.
 
-Key insight: Revenue is projected to grow from $2.3B in FY2024A to $5.0B by FY2029F. Free Cash Flow improves from -$619.5M to +$94.6M, but valuation remains highly sensitive to assumptions.
+#### Key insight:
+Revenue is projected to grow from $2.3B in FY2024A to $5.0B by FY2029F. Free Cash Flow improves from -$619.5M to +$94.6M, but valuation remains highly sensitive to assumptions.
 
 ![Forecast and Scenario](assets/screenshots/05_forecast_scenario.png)
 
@@ -286,5 +293,5 @@ Finance and Analytics:
 
 This project demonstrates how Excel and Power BI can be used together to build a finance analytics solution covering financial performance, credit risk, provider exposure, customer repayment behavior, forecasting, and valuation scenario analysis.
 
-## 👨‍💻 About the Author
-**Balaji Reddy**
+## About the Author
+ 👨‍💻 **Balaji Reddy**
